@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Spotify/Spotify.h>
+#import "Spotify.h"
 
 @interface SwitchboardSpotify : NSObject
 
