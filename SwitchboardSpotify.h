@@ -6,4 +6,11 @@
 //
 //
 
+#import <Foundation/Foundation.h>
 #import "Spotify.h"
+
+@interface SwitchboardSpotify : NSObject
+
+- (void)configure;
+
+@end
