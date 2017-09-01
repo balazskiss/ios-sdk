@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'Spotify'
-  spec.module_name = 'Spotify'
+  spec.name         = 'SwitchboardSpotify'
+  spec.module_name  = 'SwitchboardSpotify'
   spec.platform     = :ios
   spec.version      = '1.0.0'
   spec.license      = { :type => 'Apache License' }
