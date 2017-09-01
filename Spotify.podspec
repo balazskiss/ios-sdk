@@ -9,4 +9,6 @@ Pod::Spec.new do |spec|
   spec.summary      = 'Spotify iOS SDK for Switchboard SDK'
   spec.source       = { :path => 'https://github.com/balazskiss/ios-sdk.git', :branch => 'switchboard' }
   spec.vendored_frameworks = 'Spotify.framework'
+  spec.source_files = 'Spotify.framework/Versions/A/Headers/*.h', '*.{h,m}'
+  spec.public_header_files = 'Spotify.framework/Versions/A/Headers/*.h', '*.h'
 end
